@@ -10,4 +10,10 @@ function Student(props) {
     );
 }
 
+Student.propTypes = {
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool,
+}
+
 export default Student
