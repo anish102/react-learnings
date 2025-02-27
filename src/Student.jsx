@@ -9,6 +9,16 @@ function Student(props) {
         </div>
     );
 }
+// Default by destructuring
+// function Student({ name = "Test", age = 22, isStudent = true }) {
+//     return (
+//         <div className="student">
+//             <p>Name: {name}</p>
+//             <p>Age: {age}</p>
+//             <p>Student: {isStudent ? "Yes" : "No"}</p>
+//         </div>
+//     );
+// }
 
 Student.propTypes = {
     name: PropTypes.string,
