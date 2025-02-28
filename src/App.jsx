@@ -1,15 +1,10 @@
-import Card from "./Card";
-import Student from "./Student";
+import UserGreeting from "./Condition";
 
 function App() {
   return (
     <>
-      <Card />
-      <Card />
-      <Student name="Tom" age={25} isStudent={true} />
-      <Student name="Sam" age={30} isStudent={false} />
-      <Student name="Jack" age={19} isStudent={true} />
-      <Student name="Test" />
+      <UserGreeting isLoggedIn={true} userName="Sam" />
+      <UserGreeting isLoggedIn={false} userName="Jack" />
     </>
   );
 }
