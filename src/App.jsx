@@ -1,12 +1,10 @@
-import Button from "./Button";
-import Picture from "./Picture";
+import Counter from "./Counter";
 
 
 function App() {
   return (
     <>
-      <Button />
-      <Picture />
+      <Counter />
     </>
   );
 }
