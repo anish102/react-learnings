@@ -1,10 +1,10 @@
-import Counter from "./Counter";
+import Cart from "./Cart";
 
 
 function App() {
   return (
     <>
-      <Counter />
+      <Cart />
     </>
   );
 }
