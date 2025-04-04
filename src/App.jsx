@@ -1,10 +1,10 @@
-import Cart from "./Cart";
+import ColorPicker from "./ColorPicker";
 
 
 function App() {
   return (
     <>
-      <Cart />
+      <ColorPicker />
     </>
   );
 }
